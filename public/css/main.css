@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document 
+ color: #1c1f48
+ verify: #e81e77
+*/
+body{ margin:0px; padding:0px;}
+.cnav{background:#1c1f48; height:1.8em; width:100%; color:#fff; padding:1em 0; }
+.headerleft{ width:30%; float:left; }
+.headerright{ width:70%; float:right;}
+.logo{ float:left; width:80%; }
+.logo h1{ float:left; font-size:1em;}
+.logo h2{float:right;font-size:12px;border-radius:2px; border:1px solid #fff; padding:.7em 1.7em; margin-top:-.2em}
+.nav{ float:right; width:80%; }
+.nav li{ float:right; list-style:none; padding-left:1em}
+.nav li a{ color:#fff; font-size:.9em;}
+.nav li img{ border-radius:150px;}
+.nav li span{ font-size:.2em;}
+
+/* Content */
+.verified{font-size:1.3em; text-align:center; margin:.4em 0;}
+.verified a{
+	font-size:12px;border-radius:3px; border:1px solid #fff; 
+	padding:.7em 1.7em; background:#e81e77; color:#fff;
+}
+.welcome{ font-size:2em; }
+.complete{
+	float:right;
+	margin:.3em 0em ;
+	padding: 1em 2em;
+	width:300px;
+	height:auto;
+	border:1px solid #ccc;
+	border-radius: 4px;
+	font-style:1em;
+}
+.complete h3{ text-align:center;}
+.complete li{ float:left; list-style:none; margin-left:2.5em; }
+
+/*Your point*/
+.pointscore{ 
+	width:65%; float:left; height:155px; border:2px solid #ccc; padding:1.7em; border-radius: 4px;
+}
+.pointscore div{ float:left; width:50%; text-align:center;}
+.pointscore div img{ border-radius:50em;}
+.pointscore div h4{ color:#1c1f48;}
+.pointscore div .poin{ font-size:7em; color:#e81e77;}
+
+.profile{ width:21%; float:right; height:155px; border:2px solid #ccc; padding:1.7em; border-radius: 4px;}

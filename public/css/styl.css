@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, section, article, aside, header, hgroup, footer, nav, h1, h2, h3, h4, h5, h6, p, blockquote, address, time, span, em, strong, img, ol, ul, li, figure, canvas, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+#wrapper{
+	/*width:85%;*/
+	width:900px; height:auto; margin:0 auto;padding:0;font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.error{ color:#F00;}
+a{ text-decoration:none; color:#063;}
+.scorepoint{ 
+	font-size:50px;color:#fff;background:#033;width:60px;height:60px;border-radius:100px; text-align:center;		    padding:20px;
+}
+input[type='text']{ padding:5px;margin:1em;}
+input[type='email']{ padding:5px;margin:1em;}
+input[type='password']{ padding:5px;margin:1em;}
+
+.progressinfo{	
+	margin:2em 0em;	padding: 1em 2em;width:800px;height:auto;background:#efefef;
+	border:1px solid #333;	border-radius: 4px;
+}
+#blogs{
+	width:600px;height:auto;margin:0 auto;	padding:0; text-align:center;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;	
+}
+#blogs img{
+    max-width:100% !important;
+	width:100%;
+    height:100%;
+	display:inline;
+}
+
+.contents{font-size:.8em;line-height:1.2em;	word-spacing:2px;text-align:left;}
+/* Comments*/
+.comment{ 
+	width: 500px;	height: auto;padding:1.1em;	border: 1px solid #333;background:#efefef;	font-size:.6em;		    line-height:1.2em;	word-spacing:2px;text-align:left;border-radius:3px;	margin-bottom:1em;
+}
+/* Reply form */
+.toggle{ color:#e81e77; font-weight:bold; cursor:pointer;}
+.hiddenDiv{ display:none;}
+
+/* Reply */
+.reply{ 
+	width: 500px;	height: auto;padding:1.1em;	border: 1px solid #e81e77;background:#efefef;	font-size:.6em;		    line-height:1.2em;	word-spacing:2px;text-align:left;border-radius:3px;	margin-bottom:1em;
+}
+/*Your like dislike and share button*/
+div .like_dis_share{
+	float:right;
+	margin-right:.5em;
+}
+.clear{ clear:both;}
